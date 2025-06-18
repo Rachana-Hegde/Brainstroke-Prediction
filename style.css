@@ -1,487 +1,171 @@
-.area
-{
-	margin:0px;
-	padding:0px;
-	
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-
-.sign
-{
-    margin-top:300px;
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(173, 11%, 84%);
+    column-gap: 30px;
 }
-
-
-.main
-{
-	margin-left:30px;
-	margin-right:20px;
-	
+.form{
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;
 }
-.bar
-{
-
-    background-color: #39424E;
-    border-radius:4px;
-    min-height: 20px;
-    padding: 8px;
-    
-    border: 3px solid rgb(57,66,125);
-    color:white;
-    
-
+.form.signup{
+    opacity: 1 !important;
+    pointer-events: auto !important;
 }
-
-.ubar
-{
-	margin-bottom:0px;
-	padding-bottom: 0px;
+.forms.show-signup .form.signup{
+    opacity: 1;
+    pointer-events: auto;
 }
-.space
-{
-	padding-left:1px;
-	padding-right: 15px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	color:white;
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
 }
-.space:hover
-{
-	border-bottom: 5px solid #2EC866;
-	
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
 }
-.lspace
-{
-	padding-left: 100px;
-	padding-right:150px;
+form{
+    margin-top: 30px;
 }
-.nbar
-{
-	min-height: 68px;
-	padding-top:10px;
-	color:white;
-	font-size:15px;
-	font-weight: bold;
-}
-.ispace
-{
-	padding-right:8px;
-	font-size: 15px;
-}
-.lgspace
-{
-	margin-left:200px;
-}
-.log
-{
-	margin-left:100px;
-	margin-top:100px;
-}
-.cspace
-{
-	margin-top: 70px;
-	margin-left:100px;
-}
-
-.foot
-{
-
-    background-color: #222222;
-    color:white;
-    margin-top:100px;
-    margin-bottom:0px;
-    padding-top:30px;
-    padding-bottom: 30px;
-    padding-left:0px;
-    text-align:center;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-right: 0px;
-   
-}
-
-.fm
-{
-	margin-left: 100px;
-}
-
-.fspace
-{
-	margin-left:200px;
-}
-.wdiv
-{
-	background-color: #449D44;
-	color:white;
-	text-align:center;
-
-
-}
-.pb
-{
-	border:1px solid gray;
-	padding:6px;
-	border-radius:5px;
-	margin-bottom:10px;
-	text-decoration: none;
-	max-width:500px;
-	text-align: center;
-	background-color: #449D44;
-	color:white;
-}
-.pb:hover
-{
-	background-color:#286090;
-	color:white;
-}
-.pb:a
-{
-	text-decoration: none;
-}
-a:hover
-{
-	text-decoration: none;
-}
-
-.pc
-{
-	border:1px solid gray;
-	padding:10px;
-	border-radius:0px;
-	text-decoration: none;
-	text-align: center;
-	background-color: #449D44;
-	color:white;
-}
-
-.pbs
-{
-	margin-left:35px;
-}
-
-.contain
-{
-	margin-top:50px;
-	margin-left: 90px;
-}
-.tm
-{
-	margin-top:100px;
-	margin-left:135px;
-}
-
-.pw
-{
-	max-width:900px;
-	
-}
-
-.con
-{
-	margin-left:270px;
-}
-
-.xm
-{
-	
-	padding: 10px;
-	border:1px solid gray;
-	border-radius: 5px;
-	margin-bottom:10px;
-
-}
-
-
-
-.xmm
-{
-	margin-left:30px;
-	padding: 10px;
-	border:1px solid gray;
-	border-radius: 5px;
-	margin-bottom:10px;
-
-}
-
-
-
-.cpl
-{
-	text-align: center;
-}
-.ym
-{
-	padding: 0px;
-	border:1px solid gray;
-	border-radius: 0px;
-	margin-bottom:10px;
-}
-
-pre {
-  background-color: #EEEEEE;
-  font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
-  margin-bottom: 10px;
-  max-height: 600px;
-  overflow: auto;
-  padding: 5px;
-  width: auto;
-  white-space: pre;
-}
-
-.centered
-{
-	padding-right:70px;
-}
-
-
-
-
-@media only screen and (max-width:1334px) and (min-width:1010px)
-{
-
-.lspace
-{
-	margin-left:1px;
-	padding-left: 30px;
-	padding-right:10px;
-	text-align: center;
-}
-
-.space
-{
-
-	color:white;
-}
-
-.lgspace
-{
-	margin-left:30px;
-}
-.xm
-{
-	
-	padding: 10px;
-	border:1px solid gray;
-	border-radius: 5px;
-	margin-bottom:10px;
-
-}
-
-
-
-}
-
-@media only screen and (max-width:845px) and (min-width:769px)
-{
-
-.lspace
-{
-	margin-left:1px;
-	padding-left: 10px;
-	padding-right:0px;
-	text-align: center;
-}
-
-.space
-{
-    padding-right:5px;
-	color:white;
-}
-
-.lgspace
-{
-	margin-left:5px;
-}
-
-.ispace
-{
-	padding-right:4px;
-	font-size: 10px;
-}
-.cspace
-{
-	margin-top: 70px;
-	margin-left:0px;
-}
-
-.xm
-{
-	
-	padding: 10px;
-	border:1px solid gray;
-	border-radius: 5px;
-	margin-bottom:10px;
-
-}
-
-
-
-}
-
-@media only screen and (max-width:770px) and (min-width:200px)
-{
-
-
-.main
-{
-	margin-left:0px;
-	margin-right:0px;
-	
-}
-
- .navbar-fixed-top
-    {
+.form .field{
     position: relative;
-    
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+.field button{
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button:hover{
+    background-color: #016dcb;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.facebook{
+    color: #fff;
+    background-color: #4267b2;
+}
+a.facebook .facebook-icon{
+    height: 28px;
+    width: 28px;
+    color: #0171d3;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.facebook-icon,
+img.google-img{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+img.google-img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+a.google{
+    border: 1px solid #CACACA;
+}
+a.google span{
+    font-weight: 500;
+    opacity: 0.6;
+    color: #232836;
+}
+
+@media screen and (max-width: 400px) {
+    .form{
+        padding: 20px 10px;
     }
-.lspace
-{
-	margin-left:1px;
-	padding-left: 10px;
-	padding-right:0px;
-	text-align: center;
+    
 }
-
-.space
-{
-    padding-right:5px;
-	color:white;
-}
-.cspace
-{
-	margin-top: 70px;
-	margin-left:0px;
-}
-
-.lgspace
-{
-	margin-left:5px;
-}
-
-.ispace
-{
-	padding-right:4px;
-	font-size: 10px;
-}
-
-.xm
-{
-	
-	padding: 10px;
-	border:1px solid gray;
-	border-radius: 5px;
-	margin-bottom:10px;
-
-}
-
-
-
-}
-
-@media only screen and (max-width:199px) and (min-width:50px)
-{
-
-
-.main
-{
-	margin-left:0px;
-	margin-right:0px;
-	
-}
-
-.lspace
-{
-	margin-left:1px;
-	padding-left: 10px;
-	padding-right:0px;
-	text-align: center;
-}
-
-.space
-{
-    padding-right:5px;
-	color:white;
-}
-
-.lgspace
-{
-	margin-left:5px;
-}
-
-.ispace
-{
-	padding-right:4px;
-	font-size: 10px;
-}
-.cspace
-{
-	margin-top: 70px;
-	margin-left:0px;
-}
-
-
-.xm
-{
-	
-	padding: 0px;
-	border:1px solid gray;
-	border-radius: 5px;
-	margin-bottom:10px;
-
-}
-}
-
-@media only screen and (max-width:1010px) and (min-width:846px)
-{
-
-.main
-{
-	margin:0px;
-}
-
-
-.cspace
-{
-	padding-right: 50px;
-}
-.pbs
-{
-	margin-right:0px;
-}
-
-.navbar-fixed-top
-{
-	position:relative;
-}
-.lgspace
-{
-	margin-left:10px;
-}
-.lspace
-{
-	
-	padding-left: 20px;
-	padding-right:1px;
-	text-align: center;
-}
-.space
-{
-
-	color:white;
-}
-.xm
-{
-	
-	padding-left: 10px;
-	border:1px solid gray;
-	border-radius: 5px;
-	margin-bottom:10px;
-
-}
-
-
-
-
-
-
-}
-
