@@ -2,7 +2,6 @@
 
 This project is a web-based application that predicts the likelihood of a **brain stroke** using user-provided medical data. Built with **Python**, **Django**, and **Machine Learning (CNN Model)**, the system offers a fast and interactive way to assess stroke risk.
 
----
 
 ## 🚀 Features
 
@@ -12,7 +11,6 @@ This project is a web-based application that predicts the likelihood of a **brai
 * 🛡️ User signup/login with **OTP-based email verification** for enhanced security.
 * 📅 Appointment booking feature with form data stored in **SQLite** database.
 
----
 
 ## 📌 Technologies Used
 
@@ -22,7 +20,6 @@ This project is a web-based application that predicts the likelihood of a **brai
 * **Database:** SQLite
 * **Email Verification:** SMTP-based OTP system
 
----
 
 ## 🧠 How It Works
 
@@ -34,7 +31,6 @@ This project is a web-based application that predicts the likelihood of a **brai
 3. The result is displayed immediately on the web page.
 4. Users can also book an appointment with a doctor via the appointment form.
 
----
 
 ## 📥 Installation
 
@@ -49,7 +45,6 @@ python manage.py runserver
 
 Access the app at: `http://127.0.0.1:8000/`
 
----
 
 ## 🧪 Input Features Used for Prediction
 
@@ -64,7 +59,6 @@ Access the app at: `http://127.0.0.1:8000/`
 
 > 📝 Only these 8 key features are used for model training and prediction.
 
----
 
 ## 📊 Model Training
 
@@ -72,7 +66,6 @@ Access the app at: `http://127.0.0.1:8000/`
 * Used a **Convolutional Neural Network (CNN)** architecture.
 * Model is saved and loaded using `joblib` or `pickle` for real-time predictions.
 
----
 
 ## 📂 Project Structure
 
@@ -88,7 +81,6 @@ brainstroke-prediction/
 └── db.sqlite3
 ```
 
----
 
 ## ✅ How to Use
 
@@ -97,13 +89,14 @@ brainstroke-prediction/
 3. Get instant prediction results.
 4. Optionally, book an appointment for further medical assistance.
 
----
 
 ## 🔐 Security Note
 
 * Email OTP verification ensures secure user registration.
 * Prediction data is **not stored** in the database to preserve user privacy.
 
----
 
-## 
+## 📬 Contact  
+
+For any inquiries or feedback, feel free to reach out:    
+🔗 **GitHub**: [Rachana-Hegde](https://github.com/Rachana-Hegde)  
